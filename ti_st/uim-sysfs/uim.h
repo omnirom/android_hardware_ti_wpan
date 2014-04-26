@@ -50,7 +50,7 @@
 #define EVT_CMD_STATUS          0x0F
 
 
-#define VERBOSE
+//#define VERBOSE
 #ifdef ANDROID
 #define LOG_TAG "uim-sysfs"
 #define UIM_ERR(fmt, arg...)  ALOGE("uim:"fmt"\n" , ##arg)
